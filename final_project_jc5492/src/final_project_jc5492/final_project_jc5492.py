@@ -112,7 +112,7 @@ def get_crash_data(params=default_params):
         boroughfilter = boroughfilter + "borough='" + params['borough'][b].upper() + "')"
       else:
         boroughfilter = boroughfilter + "borough='" + params['borough'][b].upper() + "' OR "
-    filters.append(boroughfilter)
+    filters.append(boroughfilter) # for each of these filters, add a brief comment the explains what each code block is doing.
 
   #add limit
   if "limit" not in params:
