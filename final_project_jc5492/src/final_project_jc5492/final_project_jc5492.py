@@ -2,6 +2,8 @@ import requests
 import pandas as pd
 import geocoder
 
+# Adding a comment to describe this code's purpose would be very helpful.
+
 default_params = {"limit":10000}
 		  
 def get_crash_data(params=default_params):
