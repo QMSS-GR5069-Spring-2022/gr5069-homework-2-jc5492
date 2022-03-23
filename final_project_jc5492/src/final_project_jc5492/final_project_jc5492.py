@@ -129,6 +129,7 @@ def get_crash_data(params=default_params):
       query = query + " and " + filter
   query = query + limit
 
+	# Add a comment to this code block to explain the functionality.
   r=requests.get(query)
   if r.status_code == 200:
     df = pd.DataFrame(r.json())
