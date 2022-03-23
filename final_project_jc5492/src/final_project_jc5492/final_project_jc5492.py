@@ -120,7 +120,7 @@ def get_crash_data(params=default_params):
   else:
     limit="&$limit="+str(params['limit'])
 
-
+# Add a comment for this code block to explain its function.
   query = endpoint
   for filter in filters:
     if filter == filters[0]:
