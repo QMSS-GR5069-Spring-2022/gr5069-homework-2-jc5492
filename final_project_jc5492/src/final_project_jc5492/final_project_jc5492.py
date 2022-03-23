@@ -137,7 +137,7 @@ def get_crash_data(params=default_params):
   else:
     return r.status_code
 
-def geocode_missing_row(row):
+def geocode_missing_row(row): # Move this to the start of your code, after the "def get_crash_data(params=default_params)" code block
   '''Geocodes on/off/cross street names  and zip codes to return latitude and longitude
 
   Parameters
