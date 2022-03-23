@@ -52,7 +52,7 @@ def get_crash_data(params=default_params):
     datefilter = "crash_date " + "between '" + params["date"][0] + "' and '" + params["date"][1] + "'"
     filters.append(datefilter)
   else:
-    return "crash_date has to be list of either single date YYYY-MM-DD or [min date, max date]"
+    return "crash_date has to be list of either single date YYYY-MM-DD or [min date, max date]" # add comments to this code block to explain what this if-else code is doing.
 
   #add crash_time filter
   if "time" not in params:
