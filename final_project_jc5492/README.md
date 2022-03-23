@@ -10,7 +10,7 @@ $ pip install final_project_jc5492
 
 ## Usage
 
-- TODO
+- TODO # expand on this?
 
 ## Contributing
 
