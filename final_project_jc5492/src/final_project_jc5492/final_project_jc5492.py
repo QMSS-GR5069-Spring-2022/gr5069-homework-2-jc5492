@@ -150,6 +150,7 @@ def geocode_missing_row(row):
     List of geocoded coordinates [lat,long]
   
   '''
+# This code block needs a clarifying comment for its function.
   if pd.notnull(row['cross_street_name']):
     if geocoder.osm(row['cross_street_name'] + " " + row['borough'] + " New York " + str(row['zip_code'])).latlng is not None:
       return geocoder.osm(row['cross_street_name'] + " " + row['borough'] + " New York " + str(row['zip_code'])).latlng

@@ -1,6 +1,6 @@
 # final_project_jc5492
 
-MDS final project jc5492
+MDS final project jc5492 # specify MDS project with description
 
 ## Installation
 
@@ -10,7 +10,7 @@ $ pip install final_project_jc5492
 
 ## Usage
 
-- TODO
+- TODO # expand on this?
 
 ## Contributing
 
